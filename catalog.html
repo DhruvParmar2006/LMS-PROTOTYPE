@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Catalog - LMS Prototype</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <h1><a href="index.html">LMS Prototype</a></h1>
+      <nav><a href="dashboard.html">Dashboard</a></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Catalog (Static Examples)</h2>
+
+    <div class="search-bar static">
+      <input placeholder="Search by title, author, ISBN or keyword..." disabled />
+      <select disabled><option>All</option><option>Available</option></select>
+      <button class="btn" disabled>Search</button>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h4>The Odyssey</h4>
+        <p class="muted">by Homer</p>
+        <p>ISBN: 9780140449136</p>
+        <p>Copies: 3 | Available: 3</p>
+        <div class="row" style="margin-top:8px">
+          <a href="book.html" class="btn">View</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h4>The C Programming Language</h4>
+        <p class="muted">by Kernighan & Ritchie</p>
+        <p>ISBN: 9780131103627</p>
+        <p>Copies: 2 | Available: 1</p>
+        <div class="row" style="margin-top:8px">
+          <a href="book.html" class="btn">View</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h4>Introduction to Algorithms</h4>
+        <p class="muted">by Cormen et al.</p>
+        <p>ISBN: 9780262033848</p>
+        <p>Copies: 1 | Available: 0 <span class="muted"> (Issued)</span></p>
+        <div class="row" style="margin-top:8px">
+          <a href="book.html" class="btn">View</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 LMS Prototype</div>
+  </footer>
+</body>
+</html>
